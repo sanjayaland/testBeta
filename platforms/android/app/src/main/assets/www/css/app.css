@@ -5,3 +5,10 @@
 .ios .tabbar-labels .tab-link.tab-link-active .icon:not(.icon-ios-fill) {
   display: none;
 }
+.navbar .material-icons {
+  color:#cf455c;
+}
+.slider-img {
+  width: 100%;
+  height: 100%;
+}

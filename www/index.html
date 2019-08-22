@@ -15,7 +15,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  <meta name="theme-color" content="#2196f3">
+  <meta name="theme-color" content="#d71149">
   <meta name="format-detection" content="telephone=no">
   <meta name="msapplication-tap-highlight" content="no">
   <title>My App</title>
@@ -34,11 +34,13 @@
         <div class="page">
           <div class="navbar">
             <div class="navbar-inner">
-              <div class="title">Right Panel</div>
+              <div class="title">Menu</div>
             </div>
           </div>
           <div class="page-content">
-            <div class="block">Right panel content goes here</div>
+            <div class="block">
+              cilukbhaa..🤭
+            </div>
           </div>
         </div>
       </div>
@@ -50,22 +52,16 @@
       <div class="toolbar tabbar-labels toolbar-bottom">
         <div class="toolbar-inner">
           <a href="#view-home" class="tab-link tab-link-active">
-            <i class="icon f7-icons ios-only">home</i>
-            <i class="icon f7-icons ios-only icon-ios-fill">home_fill</i>
             <i class="icon material-icons md-only">home</i>
             <span class="tabbar-label">Home</span>
           </a>
           <a href="#view-catalog" class="tab-link">
-            <i class="icon f7-icons ios-only">list</i>
-            <i class="icon f7-icons ios-only icon-ios-fill">list_fill</i>
-            <i class="icon material-icons md-only">view_list</i>
+            <i class="icon material-icons md-only">widgets</i>
             <span class="tabbar-label">Catalog</span>
           </a>
           <a href="#view-settings" class="tab-link">
-            <i class="icon f7-icons ios-only">settings</i>
-            <i class="icon f7-icons ios-only icon-ios-fill">settings_fill</i>
-            <i class="icon material-icons md-only">settings</i>
-            <span class="tabbar-label">Settings</span>
+            <i class="icon material-icons md-only">perm_phone_msg</i>
+            <span class="tabbar-label">Hubungi Kami</span>
           </a>
         </div>
       </div>
@@ -76,10 +72,11 @@
           <!-- Top Navbar -->
           <div class="navbar">
             <div class="navbar-inner">
-              <div class="title sliding">Home</div>
+              <div class="title sliding">
+                <img alt="logo" height="40"   src="images/logo-main.png" > 
+              </div>
               <div class="right">
                 <a href="#" class="link icon-only panel-open" data-panel="right">
-                  <i class="icon f7-icons ios-only">menu</i>
                   <i class="icon material-icons md-only">menu</i>
                 </a>
               </div>
@@ -88,49 +85,23 @@
 
           <!-- Scrollable page content-->
           <div class="page-content">
-            <div class="block block-strong">
-              <p>This is an example of tabs-layout application. The main point of such tabbed layout is that each tab contains independent view with its own routing and navigation.</p>
-              <p>Each tab/view may have different layout, different navbar type (dynamic, fixed or static) or without navbar like this tab.</p>
-            </div>
-
-            <div class="block-title">Navigation</div>
-            <div class="list">
-              <ul>
-                <li>
-                  <a href="/about/" class="item-content item-link">
-                    <div class="item-inner">
-                      <div class="item-title">About</div>
+            <div class="block">
+              <div class="swiper-container swiper-init demo-swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <a href="#" class="popup-open"data-popup="#my-popup"><img class="slider-img" src="images/slider/1-min.jpg"></a>
                     </div>
-                  </a>
-                </li>
-              </ul>
+                    <div class="swiper-slide">
+                      <img class="slider-img" src="images/slider/2-min.jpg">
+                    </div>
+                    <div class="swiper-slide">
+                      <img class="slider-img" src="images/slider/3-min.jpg">
+                    </div>
+                  </div>
+                </div>      
             </div>
-
-            <div class="block-title">Modals</div>
-            <div class="block block-strong">
-              <div class="row">
-                <div class="col-50">
-                  <a href="#" class="button button-raised button-fill popup-open" data-popup="#my-popup">Popup</a>
-                </div>
-                <div class="col-50">
-                  <a href="#" class="button button-raised button-fill login-screen-open" data-login-screen="#my-login-screen">Login Screen</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="block-title">Panels</div>
-            <div class="block block-strong">
-              <div class="row">
-                <div class="col-50">
-                  <a href="#" class="button button-raised button-fill panel-open" data-panel="left">Left Panel</a>
-                </div>
-                <div class="col-50">
-                  <a href="#" class="button button-raised button-fill panel-open" data-panel="right">Right Panel</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="block-title searchbar-hide-on-search">Page Loaders & Router</div>
+        
+            <!--<div class="block-title searchbar-hide-on-search">Page Loaders & Router</div>
             <div class="list links-list searchbar-hide-on-search">
               <ul>
                 <li>
@@ -146,7 +117,7 @@
                   <a href="/request-and-load/user/123456/">Request Data & Load</a>
                 </li>
               </ul>
-            </div>
+            </div>-->
           </div>
         </div>
       </div>
@@ -168,15 +139,23 @@
         <div class="page">
           <div class="navbar">
             <div class="navbar-inner">
-              <div class="title">Popup</div>
+              <div class="title">Promo Agustus Meriah!</div>
               <div class="right">
-                <a href="#" class="link popup-close">Close</a>
+                <a href="#" class="link popup-close">Tutup</a>
               </div>
             </div>
           </div>
           <div class="page-content">
             <div class="block">
-              <p>Popup content goes here.</p>
+              <img class="slider-img" src="images/slider/1-min.jpg">
+              <strong>Promo agustusan beli rumah dapet mobil!</strong>
+              <p>Special Hari Kemerdekaan!! Dalam rangka memeriahkan HUT RI ke 74 Tahun 2019 dapatkan segera promo menarik dari Midtown Residence Promo Merdeka "Beli rumah Bebas Pilih Hadiah"</p>
+              <p>Informasi selengkapnya, kunjungi Marketing Gallery SANJAYA LAND di alamat:
+                  Jl. Jend. Sudirman Timur No. 168, Purwokerto 
+                  Atau hubungi kontak marketing kami : </p>
+              <li>081806119168</li>
+              <li>085774999168</li>  
+              <li>085956699168</li>    
             </div>
           </div>
         </div>
