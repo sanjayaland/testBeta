@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.sanjayaland.testbeta" version="1.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.sanjayaland.testbeta" version="1.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>testBeta</name>
     <description>
         A blank PhoneGap app.
@@ -7,7 +7,7 @@
     <author email="it@sanjayaland.com" href="http://sanjayaland.com">
         IT Sanjaya Land
     </author>
-    <icon src="/res/icon" />
+    <icon src="/res/icon.png" />
     <content src="index.html" />
     <access origin="*" />
     <icon density="mdpi" src="www/res/mdpi.png" />
