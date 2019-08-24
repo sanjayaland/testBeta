@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <!--
@@ -11,8 +12,10 @@
       * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
           * Enable inline JS: add 'unsafe-inline' to default-src
   -->
-  <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap: content:">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap: content:">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="theme-color" content="#d71149">
@@ -24,6 +27,7 @@
   <link rel="stylesheet" href="css/icons.css">
   <link rel="stylesheet" href="css/app.css">
 </head>
+
 <body>
   <div id="app">
     <!-- Status bar overlay for fullscreen mode-->
@@ -73,7 +77,7 @@
           <div class="navbar">
             <div class="navbar-inner">
               <div class="title sliding">
-                <img alt="logo" height="40"   src="images/logo-main.png" > 
+                <img alt="logo" height="40" src="images/logo-main.png">
               </div>
               <div class="right">
                 <a href="#" class="link icon-only panel-open" data-panel="right">
@@ -82,25 +86,51 @@
               </div>
             </div>
           </div>
-
           <!-- Scrollable page content-->
           <div class="page-content">
-            <div class="block">
+            <!--
+            <div class="block slider-block">
               <div class="swiper-container swiper-init demo-swiper">
-                  <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                      <a href="#" class="popup-open"data-popup="#my-popup"><img class="slider-img" src="images/slider/1-min.jpg"></a>
-                    </div>
-                    <div class="swiper-slide">
-                      <img class="slider-img" src="images/slider/2-min.jpg">
-                    </div>
-                    <div class="swiper-slide">
-                      <img class="slider-img" src="images/slider/3-min.jpg">
-                    </div>
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <a href="#" class="popup-open" data-popup="#my-popup">
+                      <img class="slider-img" src="images/slider/1-min.jpg"></a>
                   </div>
-                </div>      
+                  <div class="swiper-slide">
+                    <img class="slider-img" src="images/slider/2-min.jpg">
+                  </div>
+                  <div class="swiper-slide">
+                    <img class="slider-img" src="images/slider/3-min.jpg">
+                  </div>
+                </div>
+              </div>
+            </div>-->
+            <div class="block block-strong">
+              <h3>Home</h3>
+              <p>Keinginan kuat dan dedikasi tim yang tinggi menghasilkan produk properti berkualitas untuk membantu Anda mewujudkan mimpi bersama keluarga.</p>
             </div>
-        
+
+            <div class="card demo-card-header-pic">
+              <div style="background-image:url(images/midtown/midtown1.jpg)"
+                class="card-header align-items-flex-end"></div>
+              <div class="card-content card-content-padding">
+                <p class="date">Midtown Residence</p>
+                <p>Quisque eget vestibulum nulla. Quisque quis dui quis ex ultricies efficitur vitae non felis.
+                  Phasellus quis nibh hendrerit...</p>
+              </div>
+              <div class="card-footer"><a href="#" class="popup-open" data-popup="#my-popup">Read more</a></div>
+            </div>
+
+            <div class="card demo-card-header-pic">
+                <div style="background-image:url(images/midtown/midtown1.jpg)"
+                  class="card-header align-items-flex-end"></div>
+                <div class="card-content card-content-padding">
+                  <p class="date">Midtown Residence</p>
+                  <p>Quisque eget vestibulum nulla. Quisque quis dui quis ex ultricies efficitur vitae non felis.
+                    Phasellus quis nibh hendrerit...</p>
+                </div>
+                <div class="card-footer"><a href="#" class="popup-open" data-popup="#my-popup">Read more</a></div>
+              </div>
             <!--<div class="block-title searchbar-hide-on-search">Page Loaders & Router</div>
             <div class="list links-list searchbar-hide-on-search">
               <ul>
@@ -148,14 +178,15 @@
           <div class="page-content">
             <div class="block">
               <img class="slider-img" src="images/slider/1-min.jpg">
-              <strong>Promo agustusan beli rumah dapet mobil!</strong>
-              <p>Special Hari Kemerdekaan!! Dalam rangka memeriahkan HUT RI ke 74 Tahun 2019 dapatkan segera promo menarik dari Midtown Residence Promo Merdeka "Beli rumah Bebas Pilih Hadiah"</p>
+              <strong>Midtown Residence Purwokerto</strong>
+              <p>Special Hari Kemerdekaan!! Dalam rangka memeriahkan HUT RI ke 74 Tahun 2019 dapatkan segera promo
+                menarik dari Midtown Residence Promo Merdeka "Beli rumah Bebas Pilih Hadiah"</p>
               <p>Informasi selengkapnya, kunjungi Marketing Gallery SANJAYA LAND di alamat:
-                  Jl. Jend. Sudirman Timur No. 168, Purwokerto 
-                  Atau hubungi kontak marketing kami : </p>
+                Jl. Jend. Sudirman Timur No. 168, Purwokerto
+                Atau hubungi kontak marketing kami : </p>
               <li>081806119168</li>
-              <li>085774999168</li>  
-              <li>085956699168</li>    
+              <li>085774999168</li>
+              <li>085956699168</li>
             </div>
           </div>
         </div>
@@ -194,7 +225,8 @@
                   <a href="#" class="item-link list-button login-button">Sign In</a>
                 </li>
               </ul>
-              <div class="block-footer">Some text about login information.<br>Click "Sign In" to close Login Screen</div>
+              <div class="block-footer">Some text about login information.<br>Click "Sign In" to close Login Screen
+              </div>
             </div>
           </div>
         </div>
@@ -215,4 +247,5 @@
   <!-- Your custom app scripts -->
   <script src="js/app.js"></script>
 </body>
+
 </html>
